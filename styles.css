@@ -44,6 +44,23 @@
     -webkit-background-clip: text; /* For older browsers */
     -webkit-text-fill-color: transparent; /* For older browsers */
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+  }
+
+  .location2 {
+    font-family: Arial Black, Gadget, sans-serif; /* Bold, blocky font */
+    font-size: 2rem; /* Adjust for desired size */
+    line-height: 1; /* Tight line height for block effect */
+    letter-spacing: 0.1em; /* Subtle spacing between letters */
+    text-transform: uppercase; /* All uppercase for block effect */
+    background-image: linear-gradient(45deg, rgb(0, 67, 143), rgb(131, 141, 187),rgb(108, 108, 163), rgb(1, 1, 172)); 
+    background-clip: text; /* Clip text to the background */
+    color: transparent; /* Make original text color transparent */
+    -webkit-background-clip: text; /* For older browsers */
+    -webkit-text-fill-color: transparent; /* For older browsers */
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
  
