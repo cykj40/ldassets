@@ -16,6 +16,47 @@ header {
   top: 0;
   z-index: 999;
 }
+
+
+
+    h2 {
+      text-shadow: 2px 2px grey;
+      padding: 1rem;
+      border-style: double;
+      border-bottom: 1px solid black;
+      margin-bottom: 15px;
+    }
+  
+
+
+.logo {
+  font-family: "Times New Roman", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  left: 0;
+  top:auto;
+  /* border: 2px solid grey; */
+  font-variation-settings:
+    "width" 100;
+
+}
+.refrences {
+  font-size: 1.5rem;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+}
+
+.email:hover {
+  color: #007bff;
+  border-bottom: 1px solid #007bff;
+}
+
+
+/* 
 .noto-sans-company {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -23,7 +64,7 @@ header {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
+} */
 
 nav {
   display: flex;
@@ -32,6 +73,7 @@ nav {
   padding: 1rem 2rem;
   background-color: #f8f9fa;
 }
+
 
 
 
@@ -52,8 +94,10 @@ nav {
     align-items: center;
     text-align: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 20px;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    text-shadow: 2px 2px grey;
+    font-size: 40px;
+    font-weight: 600;
   }
 
   .image-text p {
