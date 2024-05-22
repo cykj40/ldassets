@@ -21,9 +21,9 @@ header {
 
     h2 {
       text-shadow: 2px 2px grey;
-      padding: 1rem;
-      border-style: double;
-      border-bottom: 1px solid black;
+      /* padding: 1rem; */
+      /* border-style: double; */
+       border-bottom: 1px solid black; 
       margin-bottom: 15px;
     }
   
