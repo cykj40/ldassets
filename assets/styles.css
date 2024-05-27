@@ -27,7 +27,9 @@ header {
       margin-bottom: 15px;
     }
   
-
+h2:hover {
+  text-shadow: yellow 2px 2px 4px;
+}
 
 .logo {
   font-family: "Times New Roman", serif;
@@ -89,7 +91,11 @@ nav {
     text-shadow: #f8f9fa 2px 2px 4px;
     
   }
-
+#navlogo:hover {
+  
+    transform: rotate(45deg);
+  
+}
 
    #homepage {
     width: 100%;
