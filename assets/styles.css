@@ -98,11 +98,11 @@ nav {
     text-shadow: #f8f9fa 2px 2px 4px;
     
   }
-#navlogo:hover {
+/* #navlogo:hover {
   
     transform: rotate(45deg);
   
-}
+} */
 
    #homepage {
     width: 100%;
