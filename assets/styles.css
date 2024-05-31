@@ -1,5 +1,9 @@
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
 body {
@@ -146,11 +150,17 @@ nav {
       font-size: 1.5rem;
       text-align: center;
     }
+    * {
+      margin: 0;
+      padding: 0;
+      background-color: #e57373;;
+    }
 
   
     .image-text {
       font-size: 30px;
       object-position: center bottom;
+      display: none;
 
     }
     #homepage {
@@ -158,15 +168,19 @@ nav {
       
     }
     #mobile {
-    display: block;
-    height: 100vh;
+    /* display: block; */
+    height: 60%;
     object-fit: cover;
     overflow: hidden;
     object-position: center bottom;
     max-width: 100%;
     width: 100%;
+    border: 2px solid transparent
+    
     margin: 0;
     padding: 0;
+    display: flex;
+    
 
     }
   
