@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: #e57373;  */
 }
 
 
@@ -101,6 +102,7 @@ nav {
     height: auto;
     text-shadow: #f8f9fa 2px 2px 4px;
     
+    
   }
 /* #navlogo:hover {
   
@@ -133,11 +135,14 @@ nav {
     text-shadow: 2px 2px grey;
     font-size: 40px;
     font-weight: 600;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
   }
 
   .image-text p {
     margin: 0.5rem 0;
   }
+
+  
 
 @media screen and (max-width: 700px) {
   nav {
