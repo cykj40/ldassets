@@ -1,8 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
+
+
 
 body {
     font-family: 'Noto Sans', sans-serif;
@@ -25,7 +23,8 @@ header {
       /* padding: 1rem; */
       /* border-style: double; */
        border-bottom: 1px solid black; 
-      margin-bottom: 15px;
+      /* margin-bottom: 15px; */
+      
     }
   
 h2:hover {
@@ -136,7 +135,7 @@ nav {
     margin: 0.5rem 0;
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   nav {
     flex-direction: column;
     padding: 1rem;
@@ -159,10 +158,16 @@ nav {
       
     }
     #mobile {
-      display: block;
+    display: block;
     height: 100vh;
     object-fit: cover;
-    
+    overflow: hidden;
+    object-position: center bottom;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
     }
   
 
@@ -178,6 +183,10 @@ nav {
     #navlogo {
       order: -1;
       margin-right: 0;
+      
     }
+
+    
+
   
 }
