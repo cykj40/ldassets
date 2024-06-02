@@ -180,10 +180,10 @@ nav {
     object-position: center bottom;
     max-width: 100%;
     width: 100%;
-    border: 2px solid transparent
+    border: 2px solid transparent;
     
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     display: flex;
     
 
