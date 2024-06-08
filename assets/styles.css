@@ -12,7 +12,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: 'wdth' 100;
+    font-variation-settings: 'width' 100;
 }
 header {
   position: sticky;
@@ -88,7 +88,7 @@ nav {
   align-items: center;
   padding: 1rem 2rem;
   /* background-color: #f8f9fa; */
-  background-color: #e57373; 
+  background-color: #c8cdcf; 
 }
 
 
@@ -113,7 +113,7 @@ nav {
   display: none;
 }
    #homepage {
-    width: 100%;
+    width: 90%;
     height: 85vh;
     object-fit: auto;
     object-position: center bottom;
