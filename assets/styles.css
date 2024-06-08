@@ -34,6 +34,7 @@ header {
   
 h2:hover {
   text-decoration: none;
+  
   /* text-shadow: yellow 2px 2px 4px; */
   /* text-shadow: 0.05em 0 0 #ec2225, -0.025em -0.05em 0 #313f97,
   0.025em 0.05em 0 #50c878;
@@ -68,7 +69,8 @@ h2:hover {
   /* color: #e57373;
   border-bottom: 1px solid #e57373; */
   color: #64b5f6;
-  border-bottom: 1px solid #64b5f6;
+  border-bottom: 1px solid #0d9449; 
+  color: #0d9449;
 }
 
 
@@ -113,11 +115,13 @@ nav {
   display: none;
 }
    #homepage {
-    width: 90%;
+    width: 100%;
     height: 85vh;
     object-fit: auto;
-    object-position: center bottom;
     max-width: 100%;
+    border: 2px solid  #c8cdcf;
+
+
      
     
   }
@@ -158,7 +162,7 @@ nav {
     * {
       margin: 0;
       padding: 0;
-      background-color: #e57373;;
+      background-color: #c8cdcf;
     }
 
   
@@ -181,6 +185,9 @@ nav {
     max-width: 100%;
     width: 100%;
     border: 2px solid transparent;
+    position: fixed;
+    
+    
     
     /* margin: 0;
     padding: 0; */
